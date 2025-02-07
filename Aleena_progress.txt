@@ -4,5 +4,11 @@ Learn : Learned how to use use various CSS.
 Implement : Implemented CSS
 Challenges : Need to explore more CSS
 
+day 2 : 07/02/2025
+
+Learn : Explored a little more on CSS.
+Implement : Implemented Cards using CSS.
+Challenges : Need to explore more CSS features.
+
 
 
