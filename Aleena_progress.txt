@@ -1,0 +1,8 @@
+day 1 : 06/02/2025
+
+Learn : Learned how to use use various CSS.
+Implement : Implemented CSS
+Challenges : Need to explore more CSS
+
+
+
