@@ -4,92 +4,134 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Your Name | Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <script defer src="script.js"></script>
 </head>
 <body>
-    <!-- Navbar -->
-    <nav>
-        <div class="logo">Your Name</div>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
 
-    <!-- Header -->
-    <header class="header" id="home">
-        <div class="intro">
-            <img src="your-photo.jpg" alt="Your Photo" class="profile-img">
-            <h1>Hi, I'm Your Name</h1>
-            <p>Web Developer | Designer | Creator</p>
-        </div>
+    <!-- Menu Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <!-- About Section -->
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I'm a passionate developer and designer with a focus on building beautiful, responsive websites. I love exploring new technologies and creating innovative solutions.</p>
+    <!-- Body -->
+
+    <!-- First Part -->
+    <section class="intro">
+        <div class="intro-text">
+            <h1 id="typing"><span id="cursor">|</span>"Hi, I'm A Web developer and MCA student...."></h1> <!-- Add cursor span -->
+            <div class="social-links">
+                <a href="https://www.instagram.com/__aleena_joshy__?fbclid=IwY2xjawIT3ttleHRuA2FlbQIxMAABHb8-8guVBkst_pY4KYNZ028m72EScMdjqsrX7lU5_LqHNcFkJGl11_JD9w_aem_GnZlPDpbjElW-_Gv4xmH1Q"><img src="https://img.icons8.com/ios/50/000000/instagram-new.png" alt="Instagram"></a>
+                <a href="https://www.facebook.com/profile.php?id=100092479698246&ref=ig_profile_ac"><img src="https://img.icons8.com/ios/50/000000/facebook.png" alt="Facebook"></a>
+                <a href="https://x.com/i/flow/login?redirect_after_login=%2FAleenaJoshy2002"><img src="https://img.icons8.com/ios/50/000000/x.png" alt="X"></a>
+                <a href="https://www.linkedin.com/in/aleena-joshy-7175a1276/"><img src="https://img.icons8.com/ios/50/000000/linkedin.png" alt="LinkedIn"></a>
+                <a href="https://github.com/Aleena210502"><img src="https://img.icons8.com/ios/50/000000/github.png" alt="GitHub"></a>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <p class="name">Aleena Joshy</p> <!-- Add your name here -->
+        </div>
+        <div class="intro-photo">
+            <img src="aleena.jpg" alt="Your Photo">
+        </div>
     </section>
 
-    <!-- Education Section -->
-    <section id="education">
+    <!-- Second Part (About Me) -->
+    <section id="about" class="about">
+        <div class="about-photo">
+            <img src="aleena.jpg" alt="Your Photo">
+        </div>
+        <div class="about-text">
+            <h2>About Me</h2>
+            <p>Hello! I'm Aleena Joshy, a passionate web developer and an MCA student at FISAT. I have a strong foundation in computer science, coupled with hands-on experience in creating dynamic and responsive websites. I specialize in front-end and back-end development, using technologies such as HTML, CSS, JavaScript, Python, PHP, and more.
+
+                Currently, as I pursue my MCA degree, I’m constantly exploring new technologies and trends in the ever-evolving world of web development. My goal is to leverage my academic knowledge alongside my practical skills to build intuitive, user-friendly web applications.
+                
+                I thrive on solving complex problems and am always looking for opportunities to learn and grow as a developer. Whether working on personal projects or collaborating with teams, I’m committed to delivering high-quality results.
+                
+                When I'm not coding, you can find me Watching Movies, but I’m always thinking of ways to improve my craft.
+                
+                Feel free to browse through my portfolio and get in touch if you’d like to collaborate or chat about web development!</p>
+        </div>
+    </section>
+
+    <!-- Third Part (Education) -->
+    <section id="education" class="education">
         <h2>Education</h2>
-        <div class="education-container">
-            <div class="education-item">
-                <h3>Degree in Computer Science</h3>
-                <p>University Name | Year</p>
-            </div>
-            <!-- Add more education items here -->
-        </div>
+        <ul>
+            <li>School - Little Flower Public School , Muringoor(2010-2019)</li>
+            <li>Bachelor's in Chemistry - Sacred Heart College , Chalakudy (2020-2023)</li>
+            <li>Master of Computer Application (MCA)- Federal Institute of Science & Technology (FISAT) (2024-Present)</li>
+        </ul>
     </section>
 
-    <!-- Skills Section -->
-    <section id="skills">
+    <!-- Fourth Part (Skills) -->
+    <section id="skills" class="skills">
         <h2>Skills</h2>
-        <div class="skills-container">
-            <div class="skill-item">HTML</div>
-            <div class="skill-item">CSS</div>
-            <div class="skill-item">JavaScript</div>
-            <div class="skill-item">React</div>
-            <!-- Add more skills here -->
+        <div class="skill-bar">
+            <div class="skill html">HTML</div>
+            <div class="skill css">CSS</div>
+            <div class="skill js">JavaScript</div>
+            <div class="skill python">Python</div>
+            <div class="skill php">PHP</div>
         </div>
     </section>
-
-    <!-- Projects Section -->
-    <section id="projects">
+    
+    
+    <!-- Fifth Part (Projects) -->
+    <section id="projects" class="projects">
         <h2>Projects</h2>
-        <div class="projects-container">
-            <!-- Add your projects here -->
-            <div class="project-item">
-                <h3>Project Name</h3>
-                <p>Project description goes here.</p>
+        <div class="project-list">
+            <div class="project">
+                <h3>Project 1</h3>
+                <p>Web Application for Blood Bank Management using Python Flask and backend would
+                    be MySQL</p>
+            </div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <p>Full Stack CRUD Application Development with React, Django, and MySQL</p>
+            </div>
+            <div class="project">
+                <h3>Project 3</h3>
+                <p>Full Stack To-Do List Application Development Using React, Django, and MySQL</p>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2>Contact</h2>
-        <form>
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea placeholder="Your Message" required></textarea>
+    <!-- Sixth Part (Contact) -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form action="#" method="POST">
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Your message" required></textarea>
             <button type="submit">Send Message</button>
         </form>
     </section>
 
-    <!-- Social Media Links -->
+    <!-- Footer -->
     <footer>
-        <div class="social-media">
-            <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
-            <a href="https://github.com" target="_blank">GitHub</a>
-            <a href="https://twitter.com" target="_blank">Twitter</a>
+        <div class="footer-social-links">
+            <a href="https://www.instagram.com/__aleena_joshy__?fbclid=IwY2xjawIT3ttleHRuA2FlbQIxMAABHb8-8guVBkst_pY4KYNZ028m72EScMdjqsrX7lU5_LqHNcFkJGl11_JD9w_aem_GnZlPDpbjElW-_Gv4xmH1Q"><img src="https://img.icons8.com/ios/50/000000/instagram-new.png" alt="Instagram"></a>
+            <a href="https://www.facebook.com/profile.php?id=100092479698246&ref=ig_profile_ac"><img src="https://img.icons8.com/ios/50/000000/facebook.png" alt="Facebook"></a>
+            <a href="https://x.com/i/flow/login?redirect_after_login=%2FAleenaJoshy2002"><img src="https://img.icons8.com/ios/50/000000/x.png" alt="X"></a>
+            <a href="https://www.linkedin.com/in/aleena-joshy-7175a1276/"><img src="https://img.icons8.com/ios/50/000000/linkedin.png" alt="LinkedIn"></a>
+            <a href="https://github.com/Aleena210502"><img src="https://img.icons8.com/ios/50/000000/github.png" alt="GitHub"></a>
         </div>
     </footer>
+
 </body>
 </html>
