@@ -1,0 +1,287 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f7f7f7;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+header nav ul li {
+    margin-left: 30px;
+}
+
+header nav ul li a {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+/* Intro Section */
+.intro {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 50px;
+    background-color: #e0f7fa;
+}
+
+.intro-text {
+    width: 50%;
+}
+
+#typing {
+    font-size: 40px;
+    font-weight: bold;
+    color: #00796b;
+    display: inline-block;
+}
+
+#cursor {
+    font-size: 40px;
+    font-weight: bold;
+    color: #00796b;
+    animation: blink 0.8s step-end infinite;
+}
+
+/* Cursor Blinking Animation */
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+.social-links {
+    display: flex;
+    margin-top: 20px;
+}
+
+.social-links a {
+    margin-right: 20px;
+}
+
+.social-links img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s;
+}
+
+.social-links img:hover {
+    transform: scale(1.1);
+}
+
+/* Add the following to your existing CSS */
+
+.name {
+    font-size: 45px;
+    font-weight: bold;
+    font-family:cursive;
+    color: #000679;
+    margin-top: 15px;
+    text-align: center;
+}
+
+
+.intro-photo img {
+    width: 50%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+
+/* About Section */
+.about {
+    display: flex;
+    padding: 50px;
+    background-color: #f5f5f5;
+}
+
+.about-photo img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.about-text h2 {
+    font-size: 36px;
+    color: #00796b;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Education Section */
+.education {
+    padding: 50px;
+}
+
+.education h2 {
+    font-size: 36px;
+    color: #00796b;
+}
+
+.education ul {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.education ul li {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Skills Section */
+.skills {
+    padding: 50px;
+    background-color: #00796b;
+    color: white;
+}
+
+.skills h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.skill-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill {
+    width: 18%;
+    background-color: #4caf50;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.skill.html { width: 85%; }
+.skill.css { width: 90%; }
+.skill.js { width: 75%; }
+.skill.python { width: 65%; }
+.skill.php { width: 60%; }
+
+
+
+/* Projects Section */
+.projects {
+    padding: 50px;
+    background-color: #f7f7f7;
+}
+
+.projects h2 {
+    font-size: 36px;
+    color: #00796b;
+    margin-bottom: 30px;
+}
+
+.project-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+}
+
+.project h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #00796b;
+}
+
+/* Contact Section */
+.contact {
+    padding: 50px;
+    background-color: #00796b;
+    color: white;
+}
+
+.contact h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+form button {
+    background-color: #4caf50;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #388e3c;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    padding: 20px;
+}
+
+footer .footer-social-links {
+    display: flex;
+    justify-content: center;
+}
+
+/* Footer Social Media Icons */
+footer .footer-social-links a {
+    margin: 0 15px;
+}
+
+footer .footer-social-links img {
+    width: 30px;
+    height: 30px;
+    filter: invert(50%) sepia(100%) saturate(1000%) hue-rotate(60deg); /* Apply yellow tint */
+    transition: transform 0.3s ease;
+}
+
+footer .footer-social-links img:hover {
+    transform: scale(1.1); /* Optional: Hover effect for better interaction */
+}
+
