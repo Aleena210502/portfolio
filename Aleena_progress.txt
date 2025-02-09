@@ -12,5 +12,13 @@ Challenges : Need to explore more CSS features.
 
 ---commit
 
+day 3 : 08/02/2025
+
+Learn : I learned how to create a responsive, visually appealing portfolio website using HTML, CSS (Flexbox & Grid), and JavaScript with interactive elements and forms.
+Implement : I implemented a structured layout with sections such as "About Me," "Skills," "Projects," "Contact Me," and social media links, along with a typewriter effect and interactive animations.
+Challenges : The challenges included integrating the typewriter effect, ensuring responsiveness across different screen sizes, and making the contact form functional for message submissions.
+
+---commit
+
 
 
